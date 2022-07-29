@@ -1,0 +1,72 @@
+*{
+    background-color: rgb(211, 152, 152);
+}
+/* Header */
+.header, .footer{
+    width: 100%;
+    position: fixed;        
+    background: #333;
+    color: #fff;
+}
+.header{
+    top: 0;
+}
+.footer{
+    bottom: 0;
+}
+
+/* Registerform */
+.ReContainer{
+    box-sizing: border-box;
+    box-shadow: blanchedalmond;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    padding: 20px;
+    margin-top: 20px;
+}
+/* .RegisterationForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center 
+} */
+input{
+    display: block;
+    border: rgb(101, 83, 199) solid 2px;
+    height: 2.5rem;
+    width: 35%;
+    margin: auto;
+    margin-bottom: 1.5rem;
+    padding: 0.1rem .5rem;
+    background-color: blanchedalmond;
+    color: black;
+}
+.btn{
+    margin-left: 40%;
+    width: 15%;
+    border-radius: 4px;
+    height: 25px;
+    background-color: gray;
+}
+.RegisterationForm h1{
+    /* display: flex;
+    justify-content: center; */
+    width: 20%;
+    border-radius: 4px;
+}
+.loginBtn{
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+    width: 15%;
+    border-radius: 4px;
+    height: 25px;
+    background-color:gray;
+    
+}
+.welcom{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    color: rgb(11, 148, 11);
+}
